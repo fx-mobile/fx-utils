@@ -1,0 +1,27 @@
+{
+  "name": "fx-utils",
+  "version": "0.1.1",
+  "description": "foresee utils",
+  "main": "./lib/index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fx-mobile/fx-utils.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fx-mobile/fx-utils/issues"
+  },
+  "homepage": "https://github.com/fx-mobile/fx-utils#readme",
+  "dependencies": {
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "*",
+    "@babel/core": "*",
+    "@babel/plugin-transform-runtime": "*",
+    "@babel/preset-env": "*"
+  }
+}
