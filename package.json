@@ -1,7 +1,7 @@
 {
   "name": "fx-utils",
   "version": "0.1.1",
-  "description": "foresee utils",
+  "description": "fx-utils",
   "main": "./lib/index.js",
   "scripts": {
     "compile": "babel -d lib/ src/"
